@@ -4,15 +4,6 @@ let assert = require('assert')
 console.log('Number 1: ')
 // Write a function called isOdd that returns whether or not a number is odd.
 // If something that is not a number is passed in, return false.
-// const isOdd = (num) => {
-//   if(num % 2 === 1){
-//     return true
-//   } else if(num % 2 ===0){
-//     return false
-//   } else if(typeof elem !== 'number'){
-//     return false
-//   }
-// }
 const isOdd = (num) => {
   if(num % 2 === 1){
     return true
@@ -32,7 +23,7 @@ const numberOfDigits = (num) => {
   return newStr.length
 }
 // Uncomment out the next line to test your solution
-// runQ2Tests()
+runQ2Tests()
 
 // Question Three:
 console.log('Number 3: ')
@@ -46,8 +37,9 @@ let newStr = ''
     }
   } return newStr
 }
+
 // Uncomment out the next line to test your solution
-// runQ3Tests()
+runQ3Tests()
 
 // Question Four:
 console.log('Number 4: ')
@@ -57,7 +49,7 @@ const secondSmallest = (array) => {
     return sortedArray[1]
 }
 // Uncomment out the next line to test your solution
-// runQ4Tests()
+runQ4Tests()
 
 // Question Five:
 console.log('Number 5: ')
@@ -78,7 +70,7 @@ const getLocations = (array) => {
 // ["Algeria", "Belize", "China", "Denmark"]
 
 // Uncomment out the next line to test your solution
-// runQ5Tests()
+runQ5Tests()
 
 
 // Question Six:
@@ -91,7 +83,7 @@ const onlyOddStrings = (array) => {
   })
 }
 // Uncomment out the next line to test your solution
-// runQ6Tests()
+runQ6Tests()
 
 
 // Question Seven:
@@ -122,7 +114,7 @@ const getAllDayDescriptions = (array) => {
   })
 }
 // Uncomment out the next line to test your solution
-// runQ7Tests()
+runQ7Tests()
 
 
 
